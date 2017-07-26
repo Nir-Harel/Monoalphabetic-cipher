@@ -30,13 +30,13 @@ namespace Monoalphabetic_cipher
               
                 int key = y;
 
-                using (FileStream stream2Read = File.OpenRead("wright the full path to the encrypted image here \\EncryptedImage.jpg"))
+                using (FileStream stream2Read = File.OpenRead("write the full path to the encrypted image here \\EncryptedImage.jpg"))
             {
 
                 using (BinaryReader reader = new BinaryReader(stream2Read))
                 {
                    
-                    string sr = "wright the full path to the folder where new images will appear\\image_" + y + ".jpg";
+                    string sr = "write the full path to the folder where the new images will appear\\image_" + y + ".jpg";
 
                         using (FileStream stream2Write = File.Create(sr))
                         {
